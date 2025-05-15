@@ -107,5 +107,6 @@
   roles:
     - role: apache_role
 ```
-![Архив с ролью](https://drive.google.com/file/d/1hqtcP_aAWgOxFTg7FpDnZD0MWDftcVVb/view?usp=sharing)
+Архив с ролью:
+(https://drive.google.com/file/d/1hqtcP_aAWgOxFTg7FpDnZD0MWDftcVVb/view?usp=sharing)
 
