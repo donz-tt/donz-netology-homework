@@ -10,6 +10,7 @@
 
 ### Решение 1
 1. 
+```
 - hosts: myhosts
   become: yes
   tasks:
@@ -20,7 +21,7 @@
         src: https://dlcdn.apache.org/kafka/4.0.0/kafka-4.0.0-src.tgz
         dest: /home/donz/homework/ansible/kafka
         remote_src: yes
-
+```
 ![Задание 1](https://github.com/donz-tt/donz-netology-homework/blob/homework_7_2/img/ДЗ-7.2-1.1.jpg)
 
 6. 
