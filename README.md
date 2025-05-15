@@ -21,7 +21,8 @@
         dest: /home/donz/homework/ansible/kafka
         remote_src: yes
 
-![Задание 1](https://github.com/donz-tt/donz-netology-homework/homework_7_2/img/ДЗ-7.2-1.1.jpg)
+![Задание 1](https://github.com/donz-tt/donz-netology-homework/blob/homework_7_2/img/ДЗ-7.2-1.1.jpg)
+
 6. 
 
 ```
