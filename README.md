@@ -9,7 +9,7 @@
 3. Изменить приветствие системы (motd) при входе на любое другое. Пожалуйста, в этом задании используйте переменную для задания приветствия. Переменную можно задавать любым удобным способом.
 
 ### Решение 1
-1. 
+#### 1. 
 ```
 - hosts: myhosts
   become: yes
@@ -22,23 +22,42 @@
         dest: /home/donz/homework/ansible/kafka
         remote_src: yes
 ```
-![Задание 1](https://github.com/donz-tt/donz-netology-homework/blob/homework_7_2/img/ДЗ-7.2-1.1.jpg)
+![Задание 1.1](https://github.com/donz-tt/donz-netology-homework/blob/homework_7_2/img/ДЗ-7.2-1.1.jpg)
 
-6. 
-
+#### 2.
 ```
-Поле для вставки кода...
-....
-....
-....
-....
-```
-
-`При необходимости прикрепитe сюда скриншоты
-![Название скриншота 1](ссылка на скриншот 1)`
-
-
 ---
+- hosts: myhosts
+  become: yes
+  tasks:
+      - name: Install Tuned
+        become: yes
+        apt:
+          name: tuned
+          state: latest
+          update_cache: yes
+      - name: Starting and enabling service
+        service:
+          name: tuned
+          state: started
+          enabled: yes
+```
+![Задание 1.2](https://github.com/donz-tt/donz-netology-homework/blob/homework_7_2/img/ДЗ-7.2-1.2.jpg)
+
+#### 3.
+```
+---
+- hosts: myhosts
+  vars:
+    motd_message: "Have a nice day!"
+  become: yes
+  tasks:
+  - name: Change motd
+    ansible.builtin.copy:
+      content: "{{ motd_message }}"
+      dest: /etc/motd
+```
+![Задание 1.3](https://github.com/donz-tt/donz-netology-homework/blob/homework_7_2/img/ДЗ-7.2-1.3.jpg)
 
 ### Задание 2
 
