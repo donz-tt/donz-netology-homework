@@ -110,3 +110,8 @@
 Архив с ролью:
 https://drive.google.com/file/d/1hqtcP_aAWgOxFTg7FpDnZD0MWDftcVVb/view?usp=sharing
 
+![Задание 3](https://github.com/donz-tt/donz-netology-homework/blob/homework_7_2/img/ДЗ-7.2-3.1.jpg)
+
+![Задание 3](https://github.com/donz-tt/donz-netology-homework/blob/homework_7_2/img/ДЗ-7.2-3.2.jpg)
+
+
