@@ -1,0 +1,15 @@
+---
+- hosts: myhosts
+  become: yes
+  tasks:
+      - name: Install Tuned
+        become: yes
+        apt:
+          name: tuned
+          state: latest
+          update_cache: yes
+      - name: Starting and enabling service
+        service:
+          name: tuned
+          state: started
+          enabled: yes

@@ -1,0 +1,11 @@
+---
+- hosts: myhosts
+  become: yes
+  tasks:
+    - name: Create folder for Apache Kafka
+      command: mkdir -p /home/donz/homework/ansible/kafka
+    - name: Unpack downloaded files
+      ansible.builtin.unarchive:
+        src: https://dlcdn.apache.org/kafka/4.0.0/kafka-4.0.0-src.tgz
+        dest: /home/donz/homework/ansible/kafka
+        remote_src: yes
