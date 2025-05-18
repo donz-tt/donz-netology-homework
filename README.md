@@ -7,7 +7,7 @@
 ### Решение 1
 #### 1. 
 
-![Задание 1.1](https://github.com/donz-tt/donz-netology-homework/blob/homework_7_4/img/ДЗ-7.4-2.1.jpg)
+![Задание 1.1](https://github.com/donz-tt/donz-netology-homework/blob/homework_7_3/img/ДЗ-7.4-2.1.jpg)
 
 #### 2.
 ```
