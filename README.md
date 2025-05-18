@@ -7,61 +7,49 @@
 ### Решение 1
 #### 1. 
 
-![Задание 1.1](https://github.com/donz-tt/donz-netology-homework/blob/homework_7_3/img/ДЗ-7.4-2.1.jpg)
-
-#### 2.
-```
----
-- hosts: myhosts
-  become: yes
-  tasks:
-      - name: Install Tuned
-        become: yes
-        apt:
-          name: tuned
-          state: latest
-          update_cache: yes
-      - name: Starting and enabling service
-        service:
-          name: tuned
-          state: started
-          enabled: yes
-```
-![Задание 1.2](https://github.com/donz-tt/donz-netology-homework/blob/homework_7_2/img/ДЗ-7.2-1.2.jpg)
-
-#### 3.
-```
----
-- hosts: myhosts
-  vars:
-    motd_message: "Have a nice day!"
-  become: yes
-  tasks:
-  - name: Change motd
-    ansible.builtin.copy:
-      content: "{{ motd_message }}"
-      dest: /etc/motd
-```
-![Задание 1.3](https://github.com/donz-tt/donz-netology-homework/blob/homework_7_2/img/ДЗ-7.2-1.3.jpg)
+![Задание 1](https://github.com/donz-tt/donz-netology-homework/blob/homework_7_3/img/ДЗ-7.4-2.1.jpg)
 
 ---
 
 ### Задание 2
-Выполните действия, приложите файлы с модифицированным плейбуком и вывод выполнения.
-Модифицируйте плейбук из пункта 3, задания 1. В качестве приветствия он должен установить IP-адрес и hostname управляемого хоста, пожелание хорошего дня системному администратору.
+Задание 2
+С помощью ansible подключиться к web-a и web-b , установить на них nginx.(написать нужный ansible playbook)
+Провести тестирование и приложить скриншоты развернутых в облаке ВМ, успешно отработавшего ansible playbook.
 
 ### Решение 2
 ```
 ---
-- hosts: myhosts
-  vars:
-    motd_message: "Have a nice day!"
+- name: Install nginx
+  hosts: webservers
   become: yes
+
   tasks:
-  - name: Change motd
-    ansible.builtin.copy:
-      content: "{{ motd_message }} \n Your IP {{ ansible_all_ipv4_addresses }} \n hostname {{ ansible_hostname }}"
-      dest: /etc/motd
+    - name: Install nginx
+      apt:
+        name: nginx
+        state: present
+        update_cache: yes
+    - name: Starting nginx service
+      service:
+        name: nginx
+        state: started
+  
+
+- name: Install DB
+  hosts: myhosts
+  become: yes
+
+  tasks:
+    - name: Install Redis
+      apt:
+        name: redis
+        state: present
+        update_cache: yes
+    - name: Starting and enabling service
+      service:
+        name: redis
+        state: started
+        enabled: yes
 ```
 ![Задание 2](https://github.com/donz-tt/donz-netology-homework/blob/homework_7_2/img/ДЗ-7.2-2.jpg)
 
