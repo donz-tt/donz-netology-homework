@@ -1,0 +1,32 @@
+---
+- name: Install nginx
+  hosts: webservers
+  become: yes
+
+  tasks:
+    - name: Install nginx
+      apt:
+        name: nginx
+        state: present
+        update_cache: yes
+    - name: Starting nginx service
+      service:
+        name: nginx
+        state: started
+  
+
+- name: Install DB
+  hosts: dataservers
+  become: yes
+
+  tasks:
+    - name: Install Redis
+      apt:
+        name: redis
+        state: present
+        update_cache: yes
+    - name: Starting and enabling service
+      service:
+        name: redis
+        state: started
+        enabled: yes
