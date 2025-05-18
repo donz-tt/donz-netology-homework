@@ -51,7 +51,7 @@
         state: started
         enabled: yes
 ```
-![Задание 2](https://github.com/donz-tt/donz-netology-homework/blob/homework_7_2/img/ДЗ-7.2-2.jpg)
+![Задание 2](https://github.com/donz-tt/donz-netology-homework/blob/homework_7_3/img/ДЗ-7.4-2.2.jpg)
 
 ---
 
