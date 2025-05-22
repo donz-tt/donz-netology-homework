@@ -34,6 +34,8 @@ https://github.com/donz-tt/testing/commit/616a29d764c0a96c7820fab195fb0cc80e94c8
 
 ### Решение 2
 
+https://github.com/donz-tt/testing/commit/4e527c93d40047ae1b662bc75a6a832d40eb7182
+
 ---
 
 ### Задание 3
