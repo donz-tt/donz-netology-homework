@@ -54,6 +54,8 @@ https://github.com/donz-tt/testing/commit/4e527c93d40047ae1b662bc75a6a832d40eb71
 
 ### Решение 3
 
+https://github.com/donz-tt/testing/network
+
 ---
 
 ### Задание 4
