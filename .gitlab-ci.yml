@@ -1,0 +1,30 @@
+stages:
+  - test
+  - build
+
+test:
+  stage: test
+  image: golang:1.17
+  script: 
+   - go test .
+  tags:
+   - netology
+
+static-analysis:
+  stage: test
+  image:
+    name: sonarsource/sonar-scanner-cli
+    entrypoint: [""]
+  variables:
+  script:
+  - sonar-scanner -Dsonar.projectKey=test_project -Dsonar.sources=. -Dsonar.host.url=http://158.160.170.239:9000 -Dsonar.login=sqp_c1a2914ffb0385ae5e57ad707314ec6a8e910648 
+  tags:
+   - netology
+
+build:
+  stage: build
+  image: docker:latest
+  script:
+   - docker build .
+  tags:
+   - netology
