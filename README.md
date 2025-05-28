@@ -29,7 +29,7 @@ sudo systemctl restart zabbix-server zabbix-agent apache2
 sudo systemctl enable zabbix-server zabbix-agent apache2
 ```
 
-![Сриншот 1](https://github.com/donz-tt/donz-netology-homework/blob/homework_8.2_zabbix/img/HW-8.2-1.jpg)
+![Сриншот 1](https://github.com/donz-tt/donz-netology-homework/blob/homework_8_2_zabbix/img/HW-8.2-1.jpg)
 
 ---
 
@@ -61,8 +61,8 @@ sudo systemctl restart zabbix-agent
 sudo systemctl enable zabbix-agent
 ```
 
-![Сриншот 2](https://github.com/donz-tt/donz-netology-homework/blob/homework_8.2_zabbix/img/HW-8.2-2.1.jpg)
+![Сриншот 2](https://github.com/donz-tt/donz-netology-homework/blob/homework_8_2_zabbix/img/HW-8.2-2.1.jpg)
 
-![Сриншот 3](https://github.com/donz-tt/donz-netology-homework/blob/homework_8.2_zabbix/img/HW-8.2-2.2.jpg)
+![Сриншот 3](https://github.com/donz-tt/donz-netology-homework/blob/homework_8_2_zabbix/img/HW-8.2-2.2.jpg)
 
-![Сриншот 4](https://github.com/donz-tt/donz-netology-homework/blob/homework_8.2_zabbix/img/HW-8.2-2.3.jpg)
+![Сриншот 4](https://github.com/donz-tt/donz-netology-homework/blob/homework_8_2_zabbix/img/HW-8.2-2.3.jpg)
