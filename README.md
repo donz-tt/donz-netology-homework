@@ -16,7 +16,8 @@
 
 ### Решение 1
 
-![Сриншот 1](https://github.com/donz-tt/donz-netology-homework/blob/homework_8_4_prometheus/img/HW-8.4-1.jpg)
+![Сриншот 1](https://github.com/donz-tt/donz-netology-homework/blob/netology_homework_8_4_prometheus/img/HW-8.4-1.jpg)
+
 
 ---
 
@@ -34,7 +35,7 @@
  
 ### Решение 2
 
- ![Сриншот 2](https://github.com/donz-tt/donz-netology-homework/blob/homework_8_4_prometheus/img/HW-8.4-2.jpg)
+ ![Сриншот 2](https://github.com/donz-tt/donz-netology-homework/blob/netology_homework_8_4_prometheus/img/HW-8.4-2.jpg)
 
 ---
 
@@ -53,7 +54,7 @@
 
 ### Решение 3
 
-![Сриншот 3](https://github.com/donz-tt/donz-netology-homework/blob/homework_8_4_prometheus/img/HW-8.4-3.jpg)
+![Сриншот 3](https://github.com/donz-tt/donz-netology-homework/blob/netology_homework_8_4_prometheus/img/HW-8.4-3.jpg)
 
 ---
 
@@ -66,6 +67,6 @@
 
 ### Решение 4
 
-![Сриншот 4](https://github.com/donz-tt/donz-netology-homework/blob/homework_8_4_prometheus/img/HW-8.4-4.jpg)
+![Сриншот 4](https://github.com/donz-tt/donz-netology-homework/blob/netology_homework_8_4_prometheus/img/HW-8.4-4.jpg)
 
 ---
