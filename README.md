@@ -15,8 +15,9 @@
 
 ### Решение 1
 
-![Сриншот 1](https://github.com/donz-tt/donz-netology-homework/blob/homework_8_2_zabbix_2/img/HW-8.3-1.jpg)
+![Сриншот 1](https://github.com/donz-tt/donz-netology-homework/blob/homework_8_2_zabbix_2/img/HW-8.3-1.1.jpg)
 
+![Сриншот 2](https://github.com/donz-tt/donz-netology-homework/blob/homework_8_2_zabbix_2/img/HW-8.3-1.2.jpg)
 ---
 
 ### Задание 2
@@ -50,7 +51,7 @@
 
 ### Решение 3
 
-![Сриншот 2](https://github.com/donz-tt/donz-netology-homework/blob/homework_8_2_zabbix_2/img/HW-8.3-3.jpg)
+![Сриншот 3](https://github.com/donz-tt/donz-netology-homework/blob/homework_8_2_zabbix_2/img/HW-8.3-3.jpg)
 
 ---
 
@@ -67,6 +68,6 @@
 
 ### Решение 4
 
-![Сриншот 3](https://github.com/donz-tt/donz-netology-homework/blob/homework_8_2_zabbix_2/img/HW-8.3-4.jpg)
+![Сриншот 4](https://github.com/donz-tt/donz-netology-homework/blob/homework_8_2_zabbix_2/img/HW-8.3-4.jpg)
 
 ---
