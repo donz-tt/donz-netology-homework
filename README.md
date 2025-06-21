@@ -10,9 +10,10 @@
 
 ### Решение 1
 
-Файл ptk:
+Файл pkt: https://github.com/donz-tt/donz-netology-homework/blob/homework_9_1_keepalived/hsrp_advanced.pkt
 
-Скриншот 1
+![Скриншот 1](https://github.com/donz-tt/donz-netology-homework/blob/homework_9_1_keepalived/img/HW-9.1-1.jpg)
+
 
 ---
 
@@ -26,6 +27,8 @@
 
 ### Решение 2
 
+check_nginx.conf: https://github.com/donz-tt/donz-netology-homework/blob/homework_9_1_keepalived/check_nginx.sh
+
 ```
 #!/bin/bash
 if nc -z 127.0.0.1 80 && [ -f /var/www/html/index.nginx-debian.html ]; then
@@ -35,6 +38,7 @@ else
 fi
 ```
 
+keepalived.conf: https://github.com/donz-tt/donz-netology-homework/blob/homework_9_1_keepalived/keepalived.conf
 ```
 vrrp_script check_script {
       script "/home/donz/check_nginx.sh"
@@ -57,3 +61,8 @@ vrrp_instance VI_1 {
         }
 }
 ```
+![Скриншот 2](https://github.com/donz-tt/donz-netology-homework/blob/homework_9_1_keepalived/img/HW-9.1-2.1.jpg)
+
+![Скриншот 3](https://github.com/donz-tt/donz-netology-homework/blob/homework_9_1_keepalived/img/HW-9.1-2.2.jpg)
+
+![Скриншот 4](https://github.com/donz-tt/donz-netology-homework/blob/homework_9_1_keepalived/img/HW-9.1-2.3.jpg)
